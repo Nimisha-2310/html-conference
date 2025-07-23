@@ -1,0 +1,81 @@
+/* Body styling */
+body {
+  background-color: #66ade7;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;
+}
+
+/* Heading */
+h1 {
+  margin-top: 10px;     /* reduced from large default */
+  margin-bottom: 20px;  /* spacing below it */
+  font-size: 28px;
+  text-align: center;
+}
+
+/* Label styling */
+label {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgba(1, 23, 26, 0.984);
+  margin: 15px 0 5px;
+  padding-left: 8%;
+  display: block;
+}
+
+/* Container box */
+div {
+  background-color: #FEEBF6;
+  width: 500px;
+  min-height: 720px; /* Increased height */
+  border: 5px solid black;
+  padding: 30px 40px 50px; /* Adjusted padding */
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+/* Button */
+.butn {
+  padding: 10px 20px;
+  background-color: #111213;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.butn:hover {
+  background-color: #d3deea;
+  color: black;
+}
+
+/* Links */
+a {
+  font-family: cursive;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000;
+}

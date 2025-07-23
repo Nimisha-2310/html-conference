@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Conference Room Booking</title>
+  <link rel="stylesheet" href="./home.css" />
+  <link rel="stylesheet" href="./java.js" />
+</head>
+<body>
+
+  <main>
+    <section class="booking-form">
+      <h2>Book a Conference Room</h2>
+      <form id="bookingForm">
+        <input type="text" id="title" placeholder="Meeting Title" required />
+        <input type="date" id="date" required />
+        <input type="time" id="time" required />
+        <textarea id="description" placeholder="Meeting Description" required></textarea>
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <section class="calendar-view">
+      <h2>Booked Rooms</h2>
+      <ul id="bookingList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Room Booking System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

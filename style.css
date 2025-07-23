@@ -1,0 +1,86 @@
+/* General page settings */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #FEEBF6;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: #66ade7;
+    padding: 20px;
+    margin-bottom: 23px;
+}
+
+/* Navigation bar */
+.main-nav div {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 30px; 
+    text-align: center;
+    padding: 0px 85px;
+    margin: 0 auto;
+}
+
+.main-nav a {
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+/* Hero section */
+.hero {
+    flex: 1;
+    text-align: center;
+    padding: 80px 20px 120px; /* Extra bottom padding to avoid overlap with footer */
+    color: #333;
+}
+
+/* Hero headline */
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+/* Hero description */
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Hero button */
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #66ade7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background-color: #66ade7;
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
